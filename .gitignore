@@ -4,8 +4,8 @@
 # Log file
 *.log
 
-#.apk file
-*.apk
+##.apk file
+#*.apk
 
 # BlueJ files
 *.ctxt
