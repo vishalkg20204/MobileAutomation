@@ -36,10 +36,25 @@ The report can be found at : /target/ExtentReport/extent.html
 Below is a preview of the generated report:
 ![img.png](img.png)
 
-## Setup Instructions
+## Setup Instructions :
 ### Prerequisites
 
-Add the respective `udid` and `deviceName` of the device/emulator to be used for automation in the `GlobalParams` file, located at:
+After cloning the project, follow these steps to set up the required .apk file:
+
+1.Navigate to src/test/resources in your project directory.
+
+2.Create a new directory named "apps".
+
+3.Place the required .apk file inside the apps directory.
+
+### **Device Configuration**
+
+To specify the UDID and Device Name of the device/emulator for automation, update the GlobalParams file:
+
+📌 File Path:
+src/main/com/Notes/utils/GlobalParams.java
+
+Modify the values of "udid" and "deviceName" as per your testing device/emulator.
 
 src/main/com/Notes/utils/GlobalParams.java
 
